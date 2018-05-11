@@ -3,3 +3,6 @@
 src/icons/
 *.LCK
 src/res/icons/
+TMP*
+*.mno
+*.xml

@@ -53,18 +53,19 @@
     <div class="welcome">Welcome back!</div>
     <form action="" method="get" name="signin">
       <div class="formwrapper">
-        <label class="nolabel" for="email">Email</label>
+        <label class="nolabel" for="email">email</label>
         <input name="email" type="email" required="required" autofocus="autofocus" placeholder="Email" />
         <br />
-        <label class="nolabel" for="password">Email</label>
+        <label class="nolabel" for="password">password</label>
         <input name="password" type="password" required="required" placeholder="Password" />
-        <p class="forgot"><a href="#">Forgot your password?</a></p>
+        <p id="error" class="error">Wrong email or password.</p>
+        <p class="forgot"><a onclick="document.getElementById('error').style.display = 'block'" href="#">Forgot your password?</a></p>
         <p class="remember"><label><input name="remember" type="checkbox" value="" checked="checked" />Remember me</label></p>
         <button type="submit" class="button">Sign in to your account</button>
       </div>
     </form>
   </section>
-  <a href="#" class="signup">Don't have an account? <span>Sign Up</span></a>
+  <a href="/register/index.shtml" class="signup">Don’t have an account? <span>Sign Up</span></a>
   <!-- .sign in form --> 
 </main>
 
