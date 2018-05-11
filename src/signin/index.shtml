@@ -13,9 +13,9 @@
 <meta name="apple-mobile-web-app-title" content="Sign In">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="canonical" href="https://dev.themetapp.com/signin">
-<link href="/res/css/global.css" rel="stylesheet" type="text/css" />
-<link href="/res/css/signin.css" rel="stylesheet" type="text/css" />
-<script src="/res/js/global.js" type="text/javascript" charset="utf-8"></script>
+<link href="../res/css/global.css" rel="stylesheet" type="text/css" />
+<link href="../res/css/signin.css" rel="stylesheet" type="text/css" />
+<script src="../res/js/global.js" type="text/javascript" charset="utf-8"></script>
 <title>The MET: Sign In</title>
 
 <!-- favicons -->
