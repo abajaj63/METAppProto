@@ -1,0 +1,108 @@
+/* CSS Document */
+
+body {
+}
+a, a:hover {
+	text-decoration:none
+}
+header {
+	background-image: url(../img/themetlogorect.svg);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-size: contain;
+	height: 75px;
+	margin-top: 100px;
+	width: 165px;
+	margin-bottom: 50px;
+}
+#signin {
+	margin-top: 66px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 300px;
+	padding: 20px;
+	display: table;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #DDDDDD;
+	background-color: #F5F5F5;
+}
+.button {
+	color: #fff;
+	background-color: #007aff;
+	/* [disabled]border: 1px solid #007aff; */
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+.signup {
+	text-align: center;
+	display: block;
+	width: 342px;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #DDDDDD;
+	box-sizing: border-box;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color: #777777;
+}
+.signup span {
+	color: #007aff;
+	margin-left: 8px;
+}
+.nolabel {
+	display: none;
+}
+.formwrapper input[type="email"], input[type="password"] {
+	font-size: 18px;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px 12px;
+	box-sizing: border-box;
+}
+.welcome {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.formwrapper {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+.forgot {
+	float: right;
+	font-size:14px;
+}
+.forgot a {
+	color: #007aff;
+}
+.remember {
+	font-size: 14px;
+	color: #777777;
+}
+.remember input {
+	margin-right: 6px;
+}
+.forgot a:hover {
+	color: #000;
+}

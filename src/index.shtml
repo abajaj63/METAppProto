@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+
+<!-- don't cache (for dev only) -->
+<meta http-equiv="Cache-Control" content="no-store" />
+<!-- .don't cache (for dev only) -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="Author" content="McCarthy Cook" />
+<meta name="apple-mobile-web-app-title" content="The MET">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="Description" content="A completely re-imagined office campus for today's diverse and innovative workforce.">
+
+<link rel="canonical" href="https://dev.themetapp.com/">
+<link rel="alternate" href="https://dev.themetapp.com/" hreflang="en-US">
+<link href="/res/css/global.css" rel="stylesheet" type="text/css" />
+<link href="/res/css/home.css" rel="stylesheet" type="text/css" />
+<script src="/res/js/global.js" type="text/javascript" charset="utf-8"></script>
+
+<title>Welcome to The MET Costa Mesa</title>
+
+<!-- favicons -->
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://dev.themetapp.com/res/icons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://dev.themetapp.com/res/icons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://dev.themetapp.com/res/icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://dev.themetapp.com/res/icons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://dev.themetapp.com/res/icons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://dev.themetapp.com/res/icons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://dev.themetapp.com/res/icons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://dev.themetapp.com/res/icons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="Welcome to The MET"/>
+<meta name="msapplication-TileColor" content="#DA1F26" />
+<meta name="msapplication-TileImage" content="https://dev.themetapp.com/res/icons/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://dev.themetapp.com/res/icons/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://dev.themetapp.com/res/icons/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://dev.themetapp.com/res/icons/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://dev.themetapp.com/res/icons/mstile-310x310.png" />
+<!-- .favicons -->
+
+<!-- Facebook Open Graph Tags -->
+<meta property="og:description" content="A completely re-imagined office campus for today's diverse and innovative workforce." />
+<meta property="og:url" content="https://dev.themetapp.com" />
+<meta property="og:image" content="https://dev.themetapp.com/res/img/fb/home.jpg" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="The MET Costa Mesa, California" />
+<meta property="og:title" content="The MET Costa Mesa" />
+<meta property="fb:admins" content="1130486012"/> <!-- Doug's FB ID -->
+<!-- .Facebook Open Graph Tags -->
+
+</head>
+
+<body class="page-home ac-nav-overlap">
+
+<!-- Include header component -->
+<!--#include file="res/ssi/header.html" -->
+<!-- .Include header component -->
+
+
+
+<!-- Include footer component -->
+<!--#include file="res/ssi/footer.html" -->
+<!-- .Include footer component -->
+
+</body>
+</html>
