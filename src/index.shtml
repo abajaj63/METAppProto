@@ -63,7 +63,11 @@
 <!--#include file="res/ssi/header.html" -->
 <!-- .Include header component -->
 
-
+<a href="http://www.mccarthycook.com" target="_blank">
+<img class="footerlogo" src="/res/img/MC-Plus-logo.svg"/>
+</a>
+  <p>Copyright © 2018 McCarthy Cook &amp; Company, Inc.</p>
+  <p><a href="#">Privacy Policy</a><span>|</span><a href="#">Terms of Use</a></p>
 
 <!-- Include footer component -->
 <!--#include file="res/ssi/footer.html" -->

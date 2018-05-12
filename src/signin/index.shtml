@@ -32,7 +32,7 @@
 <link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-16x16.png" sizes="16x16" />
 <link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-128.png" sizes="128x128" />
-<meta name="application-name" content="The MET: Sign In"/>
+<meta name="application-name" content="The MET"/>
 <meta name="msapplication-TileColor" content="#DA1F26" />
 <meta name="msapplication-TileImage" content="https://dev.themetapp.com/res/icons/mstile-144x144.png" />
 <meta name="msapplication-square70x70logo" content="https://dev.themetapp.com/res/icons/mstile-70x70.png" />
@@ -54,10 +54,10 @@
     <form action="" method="get" name="signin">
       <div class="formwrapper">
         <label class="nolabel" for="email">email</label>
-        <input name="email" type="email" required="required" autofocus="autofocus" placeholder="Email" />
+        <input name="email" type="email" required="required" autofocus="autofocus" placeholder="Email" maxlength="64" />
         <br />
         <label class="nolabel" for="password">password</label>
-        <input name="password" type="password" required="required" placeholder="Password" />
+        <input name="password" type="password" required="required" placeholder="Password" maxlength="64" />
         <p id="error" class="error">Wrong email or password.</p>
         <p class="forgot"><a onclick="document.getElementById('error').style.display = 'block'" href="#">Forgot your password?</a></p>
         <p class="remember"><label><input name="remember" type="checkbox" value="" checked="checked" />Remember me</label></p>
@@ -65,7 +65,7 @@
       </div>
     </form>
   </section>
-  <a href="/register/index.shtml" class="signup">Don’t have an account? <span>Sign Up</span></a>
+  <a href="/signup/index.shtml" class="signup">Don’t have an account? <span>Sign Up</span></a>
   <!-- .sign in form --> 
 </main>
 

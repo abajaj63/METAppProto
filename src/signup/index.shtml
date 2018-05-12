@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+
+<!-- don't cache (for dev only) -->
+<meta http-equiv="Cache-Control" content="no-store" />
+<!-- .don't cache (for dev only) -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="Author" content="McCarthy Cook" />
+<meta name="apple-mobile-web-app-title" content="Sign Up">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="canonical" href="https://dev.themetapp.com/signup">
+<link href="../res/css/global.css" rel="stylesheet" type="text/css" />
+<link href="../res/css/signup.css" rel="stylesheet" type="text/css" />
+<script src="../res/js/global.js" type="text/javascript" charset="utf-8"></script>
+<script src="../res/js/form.js" type="text/javascript" charset="utf-8"></script>
+<title>The MET: Sign Up</title>
+
+<!-- favicons -->
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://dev.themetapp.com/res/icons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://dev.themetapp.com/res/icons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://dev.themetapp.com/res/icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://dev.themetapp.com/res/icons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://dev.themetapp.com/res/icons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://dev.themetapp.com/res/icons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://dev.themetapp.com/res/icons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://dev.themetapp.com/res/icons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://dev.themetapp.com/res/icons/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="The MET"/>
+<meta name="msapplication-TileColor" content="#DA1F26" />
+<meta name="msapplication-TileImage" content="https://dev.themetapp.com/res/icons/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://dev.themetapp.com/res/icons/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://dev.themetapp.com/res/icons/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://dev.themetapp.com/res/icons/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://dev.themetapp.com/res/icons/mstile-310x310.png" />
+<!-- .favicons -->
+
+</head>
+
+<body class="page-home ac-nav-overlap">
+<!--#include virtual="/res/ssi/header.html" --> 
+
+<main> 
+  <section id="signin" class="hide">
+    <div class="welcome">Sign up for an account</div>
+    <form action="" method="get" name="signup">
+      <div class="formwrapper"> 
+        
+        <!-- first name -->
+        <label class="nolabel" for="firstname">first name</label>
+        <input name="firstname" type="text" required="required" class="inactive" id="firstname" placeholder="First Name" value="Anil" spellcheck="false" />
+        <br />
+        <p id="firstnameerror" class="error">First name is required.</p>
+        <!-- .first name --> 
+        
+        <!-- last name -->
+        <label class="nolabel" for="lastname">last name</label>
+        <input name="lastname" id="lastname" type="text" required="required" autofocus="autofocus" placeholder="Last Name" class="active" spellcheck="false" />
+        <br />
+        <p id="lastnameerror" class="error">Name does not batch badge number.</p>
+        <!-- .last name --> 
+        
+        <!-- badge number -->
+        <label class="nolabel" for="badge">badge number</label>
+        <input onkeypress="return numbersonly(this, event)" name="badge" id="badge" type="text" maxlength="10" pattern="[0-9]*" required="required" placeholder="Badge Number" />
+        <p id="badgeerror" class="error">Badge number not found.</p>
+        <!-- .badge number --> 
+        
+        <!-- company -->
+        <input name="company" id="company" value="Loudgain LLC" type="text" class="inactive" readonly="readonly" />
+        <!-- .company --> 
+        
+        <!-- email -->
+        <label class="nolabel" for="email">email</label>
+        <input name="email" id="email" type="email" maxlength="64" required="required" placeholder="Email" class="inactive" />
+        <p id="emailerror" class="error">Invalid email address.</p>
+        <!-- .email -->
+        
+        <!-- password -->
+        <label class="nolabel" for="password">password</label>
+        <input name="password" id="password" type="password" maxlength="64" required="required" placeholder="Password" class="inactive" />
+        <p id="passworderror" class="error">Password is required.</p>
+        <!-- .password -->
+        
+        <!-- confirm password -->
+        <label class="nolabel" for="confirmpassword">confirm password</label>
+        <input name="confirmpassword" id="confirmpassword" type="password" maxlength="64" required="required" placeholder="Confirm Password" class="inactive" />
+        <p id="confirmpassworderror" class="error">Passwords do not match.</p>
+        <!-- .confirm password -->
+        
+	    <p id="remember" class="remember inactive"><label><input name="remember" type="checkbox" value="" checked="checked" />Remember me</label></p>
+        
+        <button type="button" class="button" id="continue" onclick="doit()">Continue…</button>
+      </div>
+    </form>
+  </section>
+  <div id="badgewrapper" class="active" onclick="">
+    <div id="badgeimage"> </div>
+    <a href="/learnmore/index.shtml" class="signup">Don&rsquo;t have a badge yet? <span>Learn More</span></a></div>
+  </main>
+
+<!-- Ignore this test section -->
+<div id="test" style="margin-top:40px; font-size:12px;">
+<span onclick="document.getElementById('badgeerror').style.display = 'block'";>Badge number not found.</span><br />
+<span onclick="document.getElementById('lastnameerror').style.display = 'block'";>Name does not match badge number.</span>
+<!-- .Ignore this test section --> 
+
+<!--#include virtual="/res/ssi/footer.html" -->
+
+</body>
+</html>
