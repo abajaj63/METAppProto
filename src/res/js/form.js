@@ -34,7 +34,6 @@ else
 
 function doit(){
 	    document.getElementById('firstname').classList.remove('inactive');
-	    document.getElementById('remember').classList.remove('inactive');
 	    document.getElementById('company').classList.remove('inactive');
 	    document.getElementById('email').classList.remove('inactive');
 	    document.getElementById('password').classList.remove('inactive');
