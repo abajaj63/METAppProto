@@ -44,7 +44,4 @@ function doit(){
 		document.getElementById('badge').setAttribute('readonly', true);
 	    document.getElementById('badgewrapper').classList.add('inactive');
 		document.getElementById('continue').innerHTML = 'Submit';
-		document.getElementById('badgeerror').style.display = 'none';
-		document.getElementById('lastnameerror').style.display = 'none';
-		document.getElementById('email').focus();
 		}

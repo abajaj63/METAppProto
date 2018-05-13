@@ -45,6 +45,7 @@
 </head>
 
 <body class="page-home ac-nav-overlap">
+
 <!--#include virtual="/res/ssi/header.html" --> 
 
 <main> 
@@ -62,9 +63,9 @@
         
         <!-- last name -->
         <label class="nolabel" for="lastname">last name</label>
-        <input name="lastname" id="lastname" type="text" required="required" autofocus="autofocus" placeholder="Last Name" class="active" spellcheck="false" />
+        <input name="lastname" id="lastname" type="text" required="required" placeholder="Last Name" class="active" spellcheck="false" />
         <br />
-        <p id="lastnameerror" class="error">Name does not batch badge number.</p>
+        <p id="lastnameerror" class="error">Name does not match badge number.</p>
         <!-- .last name --> 
         
         <!-- badge number -->
@@ -103,16 +104,21 @@
     <div id="badgeimage"> </div>
     <a href="/learnmore/index.shtml" class="signup">Don&rsquo;t have a badge yet? <span>Learn More</span></a></div>
   </main>
-
-<!-- Ignore this test section -->
-<div id="test" style="margin-top:40px; font-size:12px;">
-<span onclick="document.getElementById('badgeerror').style.display = 'block'";>Badge number not found.</span><br />
-<span onclick="document.getElementById('lastnameerror').style.display = 'block'";>Name does not match badge number.</span><br />
-<span onclick="window.location = 'index1.shtml'">Test defer script.</span>
-
-<!-- .Ignore this test section --> 
-
+  
+  
+  
 <!--#include virtual="/res/ssi/footer.html" -->
+
+<a href="#" onclick="myFunction();">Set focus</a>
+<script>
+document.getElementById("email").addEventListener("transitionend", myFunction);
+
+function myFunction() {
+    document.getElementById('email').focus();
+}
+</script>
+
+<script src="/res/js/doit.js" defer></script>
 
 </body>
 </html>

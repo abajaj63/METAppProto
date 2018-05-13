@@ -4,7 +4,7 @@ body {
 	background-color: #ebebeb;
 }
 a, a:hover {
-	text-decoration:none
+	text-decoration: none
 }
 #signin {
 	margin-top: 66px;
@@ -66,7 +66,7 @@ a, a:hover {
 	padding: 10px 12px;
 	box-sizing: border-box;
 }
-#badgeimage{
+#badgeimage {
 	width: 342px;
 	margin-top: 20px;
 	margin-right: auto;
@@ -80,8 +80,8 @@ a, a:hover {
 	-moz-border-radius: 8px;
 	border-radius: 8px;
 	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.4);
-	-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.4);
-	box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.4);
+	box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.4);
 	background-size: cover
 }
 .welcome {
@@ -91,21 +91,13 @@ a, a:hover {
 	display: block;
 	text-align: center;
 	margin-bottom: 20px;
-	color: #777;
-	/* [disabled]font-weight: bold; */
+	color: #777
 }
 .formwrapper {
 	display: block;
 	margin: 0px;
 	padding: 0px;
-	position: relative;
-}
-.forgot {
-	float: right;
-	font-size:14px;
-}
-.forgot a {
-	color: #007aff;
+	position: relative
 }
 .error {
 	font-size: 14px;
@@ -113,59 +105,36 @@ a, a:hover {
 	text-align: center;
 	margin-bottom: 1em;
 	display: none;
-	margin-top: -14px;
-}
-.remember {
-	font-size: 14px;
-	color: #777777;
-}
-.remember input {
-	margin-right: 6px;
+	margin-top: -14px
 }
 .forgot a:hover {
-	color: #000;
+	color: #000
 }
-
 #lastname, #badge, #firstname, #password, #email, #company, #remember {
-	transition:all 500ms}
-
+	transition: all 500ms
+}
 #badgewrapper.inactive {
-	display:none;
+	display: none;
 }
 #lastname.inactive, #company {
-	border-color:transparent;
-	background-color:transparent
+	border-color: transparent;
+	background-color: transparent
 }
-#firstname.inactive, #email.inactive, #password.inactive, #company.inactive, #remember.inactive {
-	border-color:transparent;
-	background-color:transparent;
-	line-height:0;
-	overflow:hidden;
-	font-size:0;
-	height:0;
-	padding:0;
-	margin:0;
-	border-bottom-width:0;
-	border-top-width:0;
-	border-left-width:0;
-	border-right-width:0
-}
-#firstname.inactive, #email.inactive, #password.inactive, #confirmpassword.inactive, #company.inactive, #remember.inactive {
-	border-color:transparent;
-	background-color:transparent;
-	line-height:0;
-	overflow:hidden;
-	font-size:0;
-	height:0;
-	padding:0;
-	margin:0;
-	border-bottom-width:0;
-	border-top-width:0;
-	border-left-width:0;
-	border-right-width:0
+#firstname.inactive, #email.inactive, #password.inactive, #confirmpassword.inactive, #company.inactive {
+	border-color: transparent;
+	background-color: transparent;
+	overflow: hidden;
+	line-height: 0;
+	font-size: 0;
+	height: 0;
+	padding: 0;
+	margin: 0;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0
 }
 #badge.inactive {
-	border-color:transparent;
-	background-color:transparent
+	border-color: transparent;
+	background-color: transparent
 }
-/* .inactive states*/
