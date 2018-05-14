@@ -64,7 +64,7 @@
         <label class="nolabel" for="lastname">last name</label>
         <input name="lastname" id="lastname" type="text" required="required" autofocus="autofocus" placeholder="Last Name" class="active" spellcheck="false" />
         <br />
-        <p id="lastnameerror" class="error">Name does not batch badge number.</p>
+        <p id="lastnameerror" class="error">Last name and badge don't match.</p>
         <!-- .last name --> 
         
         <!-- badge number -->
@@ -106,8 +106,7 @@
 
 <!-- Ignore this test section -->
 <div id="test" style="margin-top:40px; font-size:12px;">
-<span onclick="document.getElementById('badgeerror').style.display = 'block'";>Badge number not found.</span><br />
-<span onclick="document.getElementById('lastnameerror').style.display = 'block'";>Name does not match badge number.</span><br />
+<span onclick="document.getElementById('badgeerror').style.display = 'block'";>Bad badge and/or name.</span><br />
 <span onclick="window.location = 'index1.shtml'">Test defer script.</span>
 
 <!-- .Ignore this test section --> 
