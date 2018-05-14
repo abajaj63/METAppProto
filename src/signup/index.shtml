@@ -79,19 +79,19 @@
         
         <!-- email -->
         <label class="nolabel" for="email">email</label>
-        <input name="email" id="email" type="email" maxlength="64" required="required" placeholder="Email" class="inactive" />
+        <input name="email" id="email" type="email" maxlength="20" required="required" placeholder="Email" class="inactive" />
         <p id="emailerror" class="error">Invalid email address.</p>
         <!-- .email -->
         
         <!-- password -->
         <label class="nolabel" for="password">password</label>
-        <input name="password" id="password" type="password" maxlength="64" required="required" placeholder="Password" class="inactive" />
+        <input name="password" id="password" type="password" maxlength="20" required="required" placeholder="Password" class="inactive" />
         <p id="passworderror" class="error">Password is required.</p>
         <!-- .password -->
         
         <!-- confirm password -->
         <label class="nolabel" for="confirmpassword">confirm password</label>
-        <input name="confirmpassword" id="confirmpassword" type="password" maxlength="64" required="required" placeholder="Confirm Password" class="inactive" />
+        <input name="confirmpassword" id="confirmpassword" type="password" maxlength="20" required="required" placeholder="Confirm Password" class="inactive" />
         <p id="confirmpassworderror" class="error">Passwords do not match.</p>
         <!-- .confirm password -->
                 

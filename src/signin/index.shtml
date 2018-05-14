@@ -54,10 +54,10 @@
     <form action="" method="get" name="signin">
       <div class="formwrapper">
         <label class="nolabel" for="email">email</label>
-        <input name="email" type="email" required="required" autofocus="autofocus" placeholder="Email" maxlength="64" />
+        <input name="email" type="email" required="required" autofocus="autofocus" placeholder="Email" maxlength="20" />
         <br />
         <label class="nolabel" for="password">password</label>
-        <input name="password" type="password" required="required" placeholder="Password" maxlength="64" />
+        <input name="password" type="password" required="required" placeholder="Password" maxlength="20" />
         <p id="error" class="error">Wrong email or password.</p>
         <p class="forgot"><a onclick="document.getElementById('error').style.display = 'block'" href="#">Forgot your password?</a></p>
         <p class="remember"><label><input name="remember" type="checkbox" value="" checked="checked" />Remember me</label></p>
