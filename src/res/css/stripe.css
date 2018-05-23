@@ -160,22 +160,22 @@
   color: #fff;
 }
 
-.example.example5 .success .icon .border {
+.example.example5  .icon .border {
   stroke: #bfaef6;
 }
 
-.example.example5 .success .icon .checkmark {
+.example.example5  .icon .checkmark {
   stroke: #fff;
 }
 
-.example.example5 .success .title {
+.example.example5  .title {
   color: #fff;
 }
 
-.example.example5 .success .message {
+.example.example5  .message {
   color: #cdd0f8;
 }
 
-.example.example5 .success .reset path {
+.example.example5  .reset path {
   fill: #fff;
 }
