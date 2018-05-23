@@ -96,7 +96,7 @@
         <p id="confirmpassworderror" class="error">Passwords do not match.</p>
         <!-- .confirm password -->
                 
-        <button type="button" class="button" id="continue" onclick="doit()">Continue…</button>
+        <button type="button" class="button" id="continue" onclick="window.location = 'confirmation.shtml'">Continue…</button>
       </div>
     </form>
   </section>

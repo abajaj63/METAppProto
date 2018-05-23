@@ -9,5 +9,5 @@ document.getElementById('lastname').setAttribute('readonly', true);
 document.getElementById('badge').classList.add('inactive');
 document.getElementById('badge').setAttribute('readonly', true);
 document.getElementById('badgewrapper').classList.add('inactive');
-document.getElementById('continue').innerHTML = 'Submit';
+document.getElementById('continue').innerHTML = 'Sign Up';
 document.getElementById('email').focus();

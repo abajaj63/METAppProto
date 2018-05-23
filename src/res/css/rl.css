@@ -7,7 +7,7 @@ a, a:hover {
 	text-decoration: none
 }
 #signin, #confirm {
-	margin-top: 66px;
+	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
@@ -52,6 +52,27 @@ a, a:hover {
 	border-radius: 4px;
 	color: #777777;
 }
+.mainlogo {
+	width: 342px;
+	margin-top: 66px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	/* [disabled]max-width: 600px; */
+}
+main h2 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	color: rgb(128,128,128);
+	margin-top: 12px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.mainlogo img {
+	width: 100%
+}
 .signup span {
 	color: #007aff;
 	margin-left: 8px;
@@ -60,7 +81,7 @@ a, a:hover {
 	display: none;
 }
 .formwrapper input[type="email"], input[type="password"], input[type="text"] {
-	font-size: 18px;
+	font-size: 16px;
 	width: 100%;
 	margin-bottom: 20px;
 	padding: 10px 12px;
@@ -149,4 +170,10 @@ a, a:hover {
 .check img {
 	width: 100%;
 	margin-bottom: 20px;
+}
+main .terms {
+	font-size: 16px;
+	color: rgb(136,136,136);
+	text-align: center;
+	margin-top: 20px;
 }
