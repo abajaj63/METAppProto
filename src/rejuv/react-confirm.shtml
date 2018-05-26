@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The MET: Rejuvenate Membership Cancellation Confirmation</title>
+<title>The MET: Rejuvenate Membership Reactivation Confirmation</title>
 <link rel="stylesheet" type="text/css" href="../res/css/global.css" data-rel-css="" />
 <link rel="stylesheet" type="text/css" href="../res/css/rejuv.css" data-rel-css="" />
 </head>
@@ -14,8 +14,8 @@
 <main>
   <section class="container">
     <div class="mainlogo"><img src="../res/img/rejuv-logo-tag.svg" /></div>
-    <p>Your Rejuvenate Membership has been canceled.</p>
-    <p>You will receive an email  confirming your membership cancellation.</p>
+    <p>Your Rejuvenate Membership has been reactivated.</p>
+    <p>You will receive an email  confirming your membership reactivation.</p>
     <a href="#" id="donebutton">Done</a>
   </section>
 </main>
