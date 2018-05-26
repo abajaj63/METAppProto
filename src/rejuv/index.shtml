@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>test</title>
+<title>The MET: Pay Rejuvenate Membership</title>
 <script src="https://js.stripe.com/v3/"></script>
 <script src="js/index.js" data-rel-js></script>
 <link rel="stylesheet" type="text/css" href="../res/css/global.css" data-rel-css="" />
@@ -69,7 +69,23 @@
   <div class="terms"><a href="#">Terms and Conditions</a></div>
   <!-- .terms & conditions -->
   
+ <script type="text/javascript">
+ function submitted() {
+	var example = document.querySelector(".example5");
+	example.classList.remove("submitting");
+	example.classList.add("submitted");
+}
+
+function submitting() {
+	var example = document.querySelector(".example5");
+	example.classList.remove("submitted");
+	example.classList.add("submitting");
+}
+</script>
+  
 </main>
+<a href="#" onclick="submitting()">submitting</a> | <a href="#" onclick="submitted()">submitted</a>
+
 <script src="js/example5.js" data-rel-js></script>
 </body>
 </html>

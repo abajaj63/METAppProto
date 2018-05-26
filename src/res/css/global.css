@@ -473,7 +473,7 @@ opacity:1
 }
 
 #ac-globalnav .ac-gn-link-menu1 {
-	background-size: 129px 42px;
+	background-size: 69px 42px;
 	background-repeat: no-repeat;
 	background-image: url("../images/globalnav/links/menu1/image_small1.svg")
 }
@@ -814,7 +814,7 @@ opacity:1
 	width: 1px;
 	padding: 0;
 	border: 0
-}
+} e
 #ac-gn-menustate:checked ~ #ac-globalnav .ac-gn-menuanchor-open, #ac-gn-menustate:target ~ #ac-globalnav .ac-gn-menuanchor-open {
 	display: none
 }
