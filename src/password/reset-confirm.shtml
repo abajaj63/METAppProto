@@ -9,25 +9,20 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="Author" content="McCarthy Cook" />
-<meta name="apple-mobile-web-app-capable" content="yes">
 <link href="../res/css/global.css" rel="stylesheet" type="text/css" />
 <link href="../res/css/signup.css" rel="stylesheet" type="text/css" />
-<script src="../res/js/global.js" type="text/javascript" charset="utf-8"></script>
-<title>The MET: Registration Confirmation</title>
+<title>The MET: Reset Password Confirmation</title>
 </head>
 
 <body class="page-home ac-nav-overlap">
-<!--#include virtual="/res/ssi/header.html" -->
+<!--#include virtual="/res/ssi/header.html" --> 
 
 <main>
-  <section id="confirm">
-    <div class="check"><img src="../res/img/check.svg"/></div>
-    <p align="center">Yay!<br />
-      <br />
-      You&rsquo;re now registered and signed into The Met App.</p>
-    <button type="button" class="button" id="continue" onclick="doit()">Done</button>
+  <section class="container">
+    <p>An email is on its way to you. Follow the instructions to reset your password.</p>
+    <a href="#" id="donebutton">Done</a>
   </section>
 </main>
+ 
 </body>
 </html>
