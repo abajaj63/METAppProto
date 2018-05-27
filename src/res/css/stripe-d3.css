@@ -1,17 +1,19 @@
 @charset "UTF-8";
- @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Franklin');
+
 .nolabel {
 	display: none;
 }
 .mainlogo {
-	width: 334px;
 	margin-top: 66px;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
+	width:100%;
+	max-width:450px;
+	text-align:center
 }
 .mainlogo img {
-	width: 100%
+	width:90%	
 }
 .description {
 	text-align: center;
