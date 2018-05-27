@@ -91,3 +91,13 @@ body {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.container .price{
+	font-size: 50px;
+	color: rgb(34,34,34);
+	margin-bottom: -20px;
+}
+.price span {
+	font-size: 24px;
+	vertical-align:super;
+	font-weight:600;
+}
