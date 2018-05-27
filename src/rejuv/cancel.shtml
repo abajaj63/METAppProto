@@ -13,7 +13,7 @@
 
 <main>
   <section class="container">
-    <div class="mainlogo"><img src="../res/img/rejuv-logo-tag.svg" /></div>
+    <div class="mainlogo"><a href="index.shtml"><img src="../res/img/rejuv-logo-tag.svg" /></a></div>
     <a href="#" onclick="confirm('Are you sure you want to cancel your Rejuvenate Membership?');" id="donebutton">Cancel Membership</a>
     <p>Note that you can continue to use your Rejuvenate Membership until the end of current billing cycle which expires on June 23.</p>
     <p>You can easily reactivate your membership from your Account Page prior to end of the current billing cycle.</p>

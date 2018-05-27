@@ -29,7 +29,10 @@
 main .terms {
 	font-size: 16px;
 	text-align: center;
-	margin: 60px 0px 20px
+	margin-top: 90px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
 }
 main .terms a {
 	color:#777

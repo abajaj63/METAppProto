@@ -13,7 +13,7 @@
 
 <main>
   <section class="container">
-    <div class="mainlogo"><img src="../res/img/rejuv-logo-tag.svg" /></div>
+    <div class="mainlogo"><a href="index.shtml"><img src="../res/img/rejuv-logo-tag.svg" /></a></div>
     <a href="react-confirm.shtml" id="donebutton">Reactivate Membership</a>
     <p>Your Rejuvenate Membership will be immediately reactivated and you will be billed at the start of the next billing cycle as usual.</p>
   </section>

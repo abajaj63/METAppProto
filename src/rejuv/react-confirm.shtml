@@ -13,7 +13,7 @@
 
 <main>
   <section class="container">
-    <div class="mainlogo"><img src="../res/img/rejuv-logo-tag.svg" /></div>
+    <div class="mainlogo"><a href="index.shtml"><img src="../res/img/rejuv-logo-tag.svg" /></a></div>
     <p>Your Rejuvenate Membership has been reactivated.</p>
     <p>You will receive an email  confirming your membership reactivation.</p>
     <a href="#" id="donebutton">Done</a>
