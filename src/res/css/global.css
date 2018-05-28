@@ -22,6 +22,9 @@ body {
 	font-style: normal;
 	min-width: 320px
 }
+main {
+	margin-bottom:30px;
+}
 a {
 	text-decoration:none
 }
