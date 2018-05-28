@@ -4,13 +4,13 @@
 	display: none;
 }
 .mainlogo {
-	margin-top: 66px;
+	/* [disabled]margin-top: 66px; */
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
-	width:100%;
-	max-width:450px;
-	text-align:center
+	width: 100%;
+	max-width: 450px;
+	text-align: center
 }
 .mainlogo img {
 	width:90%	

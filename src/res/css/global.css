@@ -23,7 +23,8 @@ body {
 	min-width: 320px
 }
 main {
-	margin-bottom:30px;
+	margin-bottom: 30px;
+	margin-top: 66px
 }
 a {
 	text-decoration:none
