@@ -1,0 +1,133 @@
+body {
+	background-color:#ebebeb}
+a, a:hover {
+	text-decoration: none
+}
+/* CSS Document */
+main {
+	margin-top: 66px;
+	max-width: 490px;
+	padding: 0px 20px;
+	margin-left: auto;
+	margin-right: auto
+}
+.mainlogo {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 100%;
+	max-width: 450px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.welcome {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #555;
+	text-transform: uppercase;
+}
+#massage {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	max-width: 450px;
+	padding: 20px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #DDDDDD;
+	background-color: #F5F5F5;
+	box-sizing: border-box
+}
+label {
+	color: #555;
+	font-size: 16px;
+}
+.nolabel {
+	display: none;
+}
+.error {
+	font-size: 14px;
+	color: rgba(218,31,38,1);
+	text-align: center;
+	margin-bottom: 1em;
+	display: none;
+	margin-top: -14px;
+}
+.formwrapper select {
+	padding: 10px 12px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	margin-top:6px;
+	width: 100%;
+	font-size: 18px;
+	border-color: rgba(203,203,203,1);
+	-webkit-appearance: none;
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
+	box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
+	background-color:white;
+}
+.formwrapper textarea {
+	height: 120px;
+	width: 100%;
+	box-sizing: border-box;
+	resize: vertical;
+	font-size: 18px;
+	padding: 10px 10px;
+	margin-top: 6px;
+	font-family: inherit
+}
+.formwrapper textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-size:14px
+}
+.formwrapper textarea:-moz-placeholder { /* Firefox 18- */
+	font-size:14px
+}
+.formwrapper textarea::-moz-placeholder { /* Firefox 19+ */
+	font-size:14px
+}
+.formwrapper textarea::-ms-input-placeholder { /* IE */
+	font-size:14px
+}
+.formwrapper textarea:::-ms-input-placeholder { /* IE Edge */
+font-size:14px
+}
+.formwrapper input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
+	font-size: 18px;
+	margin-bottom: 20px;
+	padding: 10px 12px;
+	box-sizing: border-box;
+	width: 100%;
+}
+.button {
+	color: #fff;
+	background-color: #007aff;
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+.button:active {
+	background-color: #006ADE;
+}
+.footnote {
+	font-size: 12px;
+	color: rgba(119,119,119,1);
+	text-align: justify;
+	max-width: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	position: relative;
+	line-height: 1.6em
+}

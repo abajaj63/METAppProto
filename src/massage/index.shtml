@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+
+<!-- don't cache (for dev only) -->
+<meta http-equiv="Cache-Control" content="no-store" />
+<!-- .don't cache (for dev only) -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="Author" content="McCarthy Cook" />
+<meta name="apple-mobile-web-app-title" content="Massage Request">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="canonical" href="https://dev.themetapp.com/massage">
+<link href="../res/css/global.css" rel="stylesheet" type="text/css" />
+<link href="../res/css/massage.css" rel="stylesheet" type="text/css" />
+<script src="../res/js/global.js" type="text/javascript" charset="utf-8"></script>
+<title>The MET: Book a Massage</title>
+</head>
+
+<body class="page-home ac-nav-overlap">
+<!--#include virtual="/res/ssi/header.html" -->
+
+<main>
+  <header class="mainlogo">
+    <video width="100%" autoplay="autoplay" playsinline="true">
+      <source src="/res/video/massage.mp4" type="video/mp4">
+      <!--<source src="movie.ogg" type="video/ogg">--> 
+      Your browser does not support the video tag.</video>
+  </header>
+  <section id="massage">
+    <div class="welcome">Book a Massage</div>
+    <form action="" method="get" name="signin">
+      <div class="formwrapper"> 
+        
+        <!-- full name -->
+        <label class="nolabel" for="name">name</label>
+        <input name="name" type="text" autofocus required="required" placeholder="Name" maxlength="64" />
+        <p id="nameerror" class="error">You must provide a name.</p>
+        <!-- .full name --> 
+        
+        <!-- method of comm -->
+        <label for="comms">Preferred Communication Method</label>
+        <select name="comms">
+          <option value="email" selected="selected">Email</option>
+          <option value="text">Text Message</option>
+          <option value="voice">Voice</option>
+        </select>
+        <input name="email" type="email" required="required" placeholder="Email" maxlength="64" />
+        <p id="emailerror" class="error">This address is invalid.</p>
+        <input name="text" type="tel" maxlength="20" required="required" placeholder="Phone Number" />
+        <p id="texterror" class="error">A phone number is required.</p>
+        <input name="voice" type="tel" maxlength="20" required="required" placeholder="Phone Number" />
+        <p id="voiceerror" class="error">A phone number is required.</p>
+        <!-- .method of comm --> 
+        
+        <!-- day of week -->
+        <label for="day">Preferred Day</label>
+        <select name="day">
+          <option value="any" selected="selected">Any Weekday</option>
+          <option value="mon">Monday</option>
+          <option value="tue">Tuesday</option>
+          <option value="wed">Wednesday</option>
+          <option value="thu">Thursday</option>
+          <option value="fri">Friday</option>
+        </select>
+        <!-- .day of week --> 
+        
+        <!-- time of day -->
+        <label for="time">Preferred Time</label>
+        <select name="time">
+          <option value="any" selected="selected">Anytime</option>
+          <option value="morning">Morning (before noon)</option>
+          <option value="afternoon">Afternoon (noon to 5PM)</option>
+          <option value="evening">Evening (after 5PM)</option>
+        </select>
+        <!-- .time of day --> 
+        
+        <!-- special requests -->
+        <label for="special">Questions / Special Requests</label>
+        <textarea name="special" maxlength="1000" placeholder="Ex. Longer or shorter session time. Specific appointment start time. A particular massage type. (Swedish, Deep-tissue, Hot Stone, Sports, Shiatsu, etc.)"></textarea>
+        <!-- .special requests -->
+        
+        <button type="submit" class="button">Submit Your Requst</button>
+      </div>
+    </form>
+  </section>
+  <p class="footnote">Appointments are made on a first come, first served basis and subject to availability. Massage therepy sessions are held in Rejuventate located at the north lobby of the 575 Anton building. Typical session duration is 1 hour but longer or shorter sessions may be available upon request. All major credit cards are accpeted. Payment is due when services are rendered.</p>
+</main>
+
+<!--#include virtual="/res/ssi/footer.html" -->
+
+</body>
+</html>

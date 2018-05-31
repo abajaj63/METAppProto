@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The MET: Cancel Rejuvenate Membership</title>
+<title>The MET: Rejuvenate Terms &amp; Conditions</title>
 <link rel="stylesheet" type="text/css" href="../res/css/global.css" data-rel-css="" />
 <link rel="stylesheet" type="text/css" href="../res/css/rejuv.css" data-rel-css="" />
 </head>
@@ -13,10 +13,10 @@
 
 <main>
   <section class="container">
-    <div class="mainlogo"><a href="index.shtml"><img src="../res/img/rejuv-logo-tag.svg" /></a></div>
-    <a href="#" onclick="confirm('Are you sure you want to cancel your Rejuvenate Membership?');" id="donebutton">Cancel Membership</a>
-    <p>Note that you can continue to use your Rejuvenate Membership until the end of current billing cycle which expires on June 23.</p>
-    <p>You can easily reactivate your membership from your Account Page prior to end of the current billing cycle.</p>
+    <div class="mainlogo"><a href="../"><img src="../res/img/rejuv-logo-tag.svg" /></a></div>
+    <p>Terms and Conditions</p>
+    <p>asdfasdfasdf</p>
+    <a href="join.shtml" id="donebutton">Done</a>
   </section>
 </main>
 

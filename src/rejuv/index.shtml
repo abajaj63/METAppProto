@@ -50,7 +50,7 @@
 <!--#include virtual="/res/ssi/header.html" -->
 
 <main>
-  <div class="mainlogo"><img src="../res/img/rejuv-logo-tag.svg" /></div>
+  <header class="mainlogo"><img src="../res/img/rejuv-logo-tag.svg" /></header>
   <section class="container">
     <div id="rejuv_hype_container" style="margin:auto;position:relative;width:100%;height:300px;overflow:hidden;"> 
       <script type="text/javascript" charset="utf-8" src="/res/hype/rejuv.hyperesources/rejuv_hype_generated_script.js?17141"></script> 

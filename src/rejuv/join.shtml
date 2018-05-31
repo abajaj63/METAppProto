@@ -71,7 +71,7 @@
   </section>
   
   <!-- terms & conditions -->
-  <div class="terms"><a href="#">Terms and Conditions</a></div>
+  <div class="terms"><a href="terms.shtml">Terms and Conditions</a></div>
   <!-- .terms & conditions -->
   
  <script type="text/javascript">
@@ -92,5 +92,8 @@ function submitting() {
 <a href="#" onclick="submitting()">submitting</a> | <a href="#" onclick="submitted()">submitted</a>
 
 <script src="js/example5.js" data-rel-js></script>
+
+<!--#include virtual="/res/ssi/footer.html" -->
+
 </body>
 </html>

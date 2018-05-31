@@ -46,6 +46,8 @@
     </form>
   </section>
   </main>
+  
+  <!--#include virtual="/res/ssi/footer.html" -->
  
 </body>
 </html>
