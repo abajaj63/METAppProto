@@ -22,13 +22,13 @@
 
 <main> 
   <section id="confirm">
-    <p>Success!</p>
+    <p>Your registration confirmation email has been resent to doug@dawirs.com.</p>
     <p>Please check your  inbox for a confirmation email.</p>
     <p>Follow the directions in the message to complete the  registration process.</p>
     <p>You will be automatically signed into the website when done.</p>
   </section>
   <div id="badgewrapper" class="active" onclick="">
-    <a href="resent.shtml" class="signup">Didn&rsquo;t get the email? <span>Send it again</span></a></div>
+    <a href="/learnmore/index.shtml" class="signup">Didn&rsquo;t get the email? <span>Send it again</span></a></div>
 </main>
 
 <!--#include virtual="/res/ssi/footer.html" -->
