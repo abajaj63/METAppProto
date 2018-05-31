@@ -15,8 +15,13 @@
   <section class="container">
     <div class="mainlogo"><a href="../"><img src="../res/img/rejuv-logo-tag.svg" /></a></div>
     <p>Terms and Conditions</p>
-    <p>asdfasdfasdf</p>
-    <a href="join.shtml" id="donebutton">Done</a>
+    <div id="terms">
+      <p>Paid  members shall be billed at monthly intervals coinciding with their membership inception date. For example, if you joined on the 8th of the month, your card will be  charged on the 8th of each subsequent month.</p>
+      <p>Memberships are non-refundable, non-transferrable and are restricted to  MET tenants in good standing.</p>
+      <p>Members can cancel their membership at any time. However, no refund shall be issued for the unused portion. Instead, members shall retain access to Rejuvenate until the end of the current billing period.</p>
+      <p>Membership fees are subject to change without notice.</p>
+      <p>Members must use a tenant access card or HID Mobile Access application to enter Rejuvenate.</p>
+      <a href="join.shtml" id="donebutton">Done</a></div>
   </section>
 </main>
 

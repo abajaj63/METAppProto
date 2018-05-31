@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="../res/css/global.css" rel="stylesheet" type="text/css" />
+<link href="../res/css/massage.css" rel="stylesheet" type="text/css" />
+<script src="../res/js/global.js" type="text/javascript" charset="utf-8"></script>
+<title>The MET: Book a Massage Confirmation</title>
+</head>
+
+<body class="page-home ac-nav-overlap">
+<!--#include virtual="/res/ssi/header.html" -->
+
+<main>
+  <section id="massage">
+    <div class="welcome">Book a Massage</div>
+    <p>Your booking request has been received.</p><p>Our masseuse will contact you shortly to confirm your appointment and answer any questions you might have.</p>
+      <div class="confirmation"> 
+        
+        <!-- full name -->
+        <p>Doug Dawirs</p>
+        <!-- .full name --> 
+        
+        <!-- email -->
+        <p>doug@dawirs.com</p>
+        <!-- email --> 
+        
+        <!-- phone -->
+        <p>7142724993</p>
+        <!-- .phone --> 
+        
+        <!-- day of week -->
+        <p>Thursday</p>
+        <!-- .day of week --> 
+        
+        <!-- time of day -->
+        <p>Morning (before noon)</p>
+        <!-- .time of day --> 
+        
+        <!-- special requests -->
+        <p>11 AM works best for me. Do you offer deep tissue massage?</p>
+        <!-- .special requests -->
+        
+ <a href="/" id="donebutton">Done</a>      </div>
+  </section>
+  <p class="footnote">Appointments are made on a first come, first served basis and subject to availability. Massage therepy sessions are held in Rejuventate located at the north lobby of the 575 Anton building. Typical session duration is 1 hour but longer or shorter sessions may be available upon request. All major credit cards are accpeted. Payment is due when services are rendered. For assistance contact <a href="mailto:rejuvenate@mccarthycook.com">rejuvenate@mccarthycook.com</a>.</p>
+</main>
+
+<!--#include virtual="/res/ssi/footer.html" -->
+
+</body>
+</html>

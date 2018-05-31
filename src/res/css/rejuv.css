@@ -52,6 +52,9 @@ body {
 	line-height: 1.5em;
 	text-align: center;
 }
+#terms p {
+	text-align: justify;
+}
 .mainlogo {
 	/* [disabled]margin-top: 66px; */
 	margin-right: auto;
