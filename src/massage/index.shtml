@@ -18,8 +18,8 @@
 <script src="../res/js/global.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- javascript calendar -->
-<link rel="stylesheet" type="text/css" href="/res/jsCalendar-master/source/jsCalendar.css">
-<script type="text/javascript" src="/res/jsCalendar-master/source/jsCalendar.js"></script>
+<link rel="stylesheet" type="text/css" href="../res/jsCalendar-master/source/jsCalendar.css">
+<script type="text/javascript" src="../res/jsCalendar-master/source/jsCalendar.js"></script>
 <!-- .javascript calendar -->
 
 <title>The MET: Book a Massage</title>
@@ -31,7 +31,7 @@
 <main>
   <header class="mainlogo">
     <video width="100%" autoplay="autoplay" playsinline="true">
-      <source src="/res/video/massage.mp4" type="video/mp4">
+      <source src="../res/video/massage.mp4" type="video/mp4">
       <!--<source src="movie.ogg" type="video/ogg">--> 
       Your browser does not support the video tag.</video>
   </header>
@@ -78,7 +78,7 @@
         </select>
         <!-- .time of day --> 
         
-        <div class="auto-jsCalendar material-theme yellow"></div>
+        <div id="date-calendar" class="jsCalendar material-theme yellow"></div>
         
         <!-- special requests -->
         <label for="special">Questions / Special Requests</label>
@@ -87,6 +87,23 @@
         
         <button type="submit" class="button">Submit Your Requst</button>
       </div>
+      <script type="text/javascript">
+			// Get elements
+			var elements = {
+				// Calendar element
+				calendar : document.getElementById("date-calendar"),
+			}
+			var calendar = jsCalendar.new(elements.calendar);
+			
+			// Add events
+			calendar.onDateClick(function(event, date){
+				// Update calendar date
+				calendar.set(date);
+				var selDate = date.toString();
+//				alert(selDate);
+			});
+
+      </script>
     </form>
   </section>
   <p class="footnote">Appointments are made on a first come, first served basis and subject to availability. Massage therepy sessions are held in Rejuventate located at the north lobby of the 575 Anton building. Typical session duration is 1 hour but longer or shorter sessions may be available upon request. All major credit cards are accpeted. Payment is due when services are rendered. For assistance contact <a href="mailto:rejuvenate@mccarthycook.com">rejuvenate@mccarthycook.com</a>.</p>
