@@ -100,7 +100,7 @@
     </form>
   </section>
   <div id="badgewrapper" class="active" onclick="">
-    <div id="badgeimage"> </div>
+    <div id="badgeimage"><img src="../res/img/badge.png" alt="badge" /></div>
     <a href="/learnmore/index.shtml" class="signup">Don&rsquo;t have a badge yet? <span>Learn More</span></a></div>
   </main>
 

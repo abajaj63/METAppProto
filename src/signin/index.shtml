@@ -24,7 +24,6 @@
 
 <!-- .sign in form -->
 <main> 
-  <!--<header></header>-->
   <section id="signin">
     <div class="welcome">Welcome back!</div>
     <form action="" method="get" name="signin">
@@ -35,7 +34,7 @@
         <label class="nolabel" for="password">password</label>
         <input name="password" type="password" required="required" placeholder="Password" maxlength="20" />
         <p id="error" class="error">Wrong email or password.</p>
-        <p class="forgot"><a onclick="document.getElementById('error').style.display = 'block'" href="#">Forgot your password?</a></p>
+        <p class="forgot"><a onclick="document.getElementById('error').style.display = 'block'" href="#">Forgot  password?</a></p>
         <p class="remember"><label><input name="remember" type="checkbox" value="" checked="checked" />Remember me</label></p>
         <button type="submit" class="button">Sign in to your account</button>
       </div>

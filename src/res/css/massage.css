@@ -1,15 +1,12 @@
+/* CSS Document */
+
 body {
 	background-color:#ebebeb}
 a, a:hover {
 	text-decoration: none
 }
-/* CSS Document */
 main {
-	margin-top: 66px;
-	max-width: 490px;
-	padding: 0px 20px;
-	margin-left: auto;
-	margin-right: auto
+	padding: 0px 18px;
 }
 .mainlogo {
 	margin-right: auto;
@@ -18,7 +15,7 @@ main {
 	width: 100%;
 	max-width: 450px;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 30px
 }
 .welcome {
 	margin-right: auto;
@@ -77,7 +74,7 @@ label {
 	background-color: white
 }
 .formwrapper textarea {
-	height: 120px;
+	height: 140px;
 	width: 100%;
 	box-sizing: border-box;
 	resize: vertical;
@@ -137,11 +134,11 @@ font-size:14px;
 	margin-left: auto;
 	padding-top: 20px;
 	position: relative;
-	line-height: 1.6em
+	line-height: 1.6em;
+	text-align: justify;
 }
 .confirmation p {
 	margin-top: 10px;
-	/* [disabled]margin-left: 10px; */
 	color: rgba(136,136,136,1);
 }
 #massage p {
@@ -166,5 +163,5 @@ font-size:14px;
 	display: block;
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 20px
 }
