@@ -20,8 +20,7 @@
 <main>
   <section class="container">
     <p>Your password has been successfully changed.</p>
-    <p>You will receive an email confirming the change.</p>
-    <a href="#" id="donebutton">Done</a>
+    <a href="/" id="donebutton">Done</a>
   </section>
 </main>
  

@@ -70,7 +70,7 @@ label {
 	box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.5);
 	background-image: url(../img/menuArrowGreySprite.png);
 	background-repeat: no-repeat;
-	background-position: 97% 13px;
+	background-position: right 20px center;
 	background-color: white
 }
 .formwrapper textarea {

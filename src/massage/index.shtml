@@ -16,6 +16,12 @@
 <link href="../res/css/global.css" rel="stylesheet" type="text/css" />
 <link href="../res/css/massage.css" rel="stylesheet" type="text/css" />
 <script src="../res/js/global.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- javascript calendar -->
+<link rel="stylesheet" type="text/css" href="/res/jsCalendar-master/source/jsCalendar.css">
+<script type="text/javascript" src="/res/jsCalendar-master/source/jsCalendar.js"></script>
+<!-- .javascript calendar -->
+
 <title>The MET: Book a Massage</title>
 </head>
 
@@ -51,7 +57,7 @@
         <!-- .phone -->
         
         <!-- day of week -->
-        <label for="day">Preferred Day</label>
+       <!-- <label for="day">Preferred Day</label>
         <select name="day">
           <option value="any" selected="selected">Any Weekday</option>
           <option value="mon">Monday</option>
@@ -59,11 +65,11 @@
           <option value="wed">Wednesday</option>
           <option value="thu">Thursday</option>
           <option value="fri">Friday</option>
-        </select>
+        </select>-->
         <!-- .day of week --> 
         
         <!-- time of day -->
-        <label for="time">Preferred Time</label>
+       <label for="time">Preferred Time</label>
         <select name="time">
           <option value="any" selected="selected">Anytime</option>
           <option value="morning">Morning (before noon)</option>
@@ -71,6 +77,8 @@
           <option value="evening">Evening (after 5PM)</option>
         </select>
         <!-- .time of day --> 
+        
+        <div class="auto-jsCalendar material-theme yellow"></div>
         
         <!-- special requests -->
         <label for="special">Questions / Special Requests</label>
