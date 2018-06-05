@@ -78,6 +78,12 @@
         </select>
         <!-- .time of day --> 
         
+        <!-- date -->
+        <label for="date">Preferred Date</label>
+        <p id="date"></p>
+        <p id="dateerror" class="error">That date is in the past.</p>
+        <!-- .date --> 
+        
         <div id="date-calendar" class="jsCalendar material-theme yellow"></div>
         
         <!-- special requests -->
@@ -94,13 +100,17 @@
 				calendar : document.getElementById("date-calendar"),
 			}
 			var calendar = jsCalendar.new(elements.calendar);
+			var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+			var now = new Date();
+			now.setHours(0,0,0,0);
+			document.getElementById("date").innerHTML = now.toLocaleDateString('en-US', options);
 			
 			// Add events
-			calendar.onDateClick(function(event, date){
+			calendar.onDateClick(function(event, selDate){
 				// Update calendar date
-				calendar.set(date);
-				var selDate = date.toString();
-//				alert(selDate);
+				calendar.set(selDate);
+				var dateString = selDate.toLocaleDateString('en-US', options);
+				document.getElementById("date").innerHTML = dateString;
 			});
 
       </script>
