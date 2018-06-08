@@ -45,9 +45,9 @@
 </head>
 
 <body class="page-home ac-nav-overlap">
-<!--#include virtual="/res/ssi/header.html" --> 
+<!--#include virtual="/res/ssi/header.html" -->
 
-<main> 
+<main id="main">
   <section id="signin" class="hide">
     <div class="welcome">Sign up for an account</div>
     <form action="" method="get" name="signup">
@@ -81,34 +81,38 @@
         <label class="nolabel" for="email">email</label>
         <input name="email" id="email" type="email" maxlength="20" required="required" placeholder="Email" class="inactive" />
         <p id="emailerror" class="error">Invalid email address.</p>
-        <!-- .email -->
+        <!-- .email --> 
         
         <!-- password -->
         <label class="nolabel" for="password">password</label>
         <input name="password" id="password" type="password" maxlength="20" required="required" placeholder="Password" class="inactive" />
         <p id="passworderror" class="error">Password is required.</p>
-        <!-- .password -->
+        <!-- .password --> 
         
         <!-- confirm password -->
         <label class="nolabel" for="confirmpassword">confirm password</label>
         <input name="confirmpassword" id="confirmpassword" type="password" maxlength="20" required="required" placeholder="Confirm Password" class="inactive" />
         <p id="confirmpassworderror" class="error">Passwords do not match.</p>
         <!-- .confirm password -->
-                
+        
         <button type="button" class="button" id="continue" onclick="doit()">Continue…</button>
       </div>
     </form>
+    <div class="success">
+      <div class="icon"> <svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <circle class="border" cx="42" cy="42" r="40" stroke-linecap="round" stroke-width="4" stroke="#000" fill="none"></circle>
+        </svg> </div>
+    </div>
   </section>
   <div id="badgewrapper" class="active" onclick="">
     <div id="badgeimage"><img src="../res/img/badge.png" alt="badge" /></div>
     <a href="/learnmore/index.shtml" class="signup">Don&rsquo;t have a badge yet? <span>Learn More</span></a></div>
-  </main>
+</main>
 
 <!-- Ignore this test section -->
-<div id="test" style="margin-top:40px; font-size:12px;">
-<span onclick="document.getElementById('badgeerror').style.display = 'block'";>Bad badge and/or name.</span><br />
-<span onclick="window.location = 'index1.shtml'">Test defer script.</span>
-
+<div id="test" style="margin-top:40px; font-size:12px;"> <span onclick="document.getElementById('main').classList.add('submitting')";>Submitting</span><br />
+  <span onclick="document.getElementById('badgeerror').style.display = 'block'";>Bad badge and/or name.</span><br />
+  <span onclick="window.location = 'index1.shtml'">Test defer script.</span></div>
 <!-- .Ignore this test section --> 
 
 <!--#include virtual="/res/ssi/footer.html" -->

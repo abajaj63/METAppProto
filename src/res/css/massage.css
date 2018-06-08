@@ -2,6 +2,9 @@
 
 body {
 	background-color:#ebebeb}
+#date {
+	margin-top: 6px;
+}
 a, a:hover {
 	text-decoration: none
 }
