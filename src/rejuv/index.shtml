@@ -49,7 +49,7 @@
 <body class="page-home ac-nav-overlap">
 <!--#include virtual="/res/ssi/header.html" -->
 
-<main>
+<main id="main">
   <header class="mainlogo"><img src="../res/img/rejuv-logo-tag.svg" /></header>
   <section class="container">
     <div id="rejuv_hype_container" style="margin:auto;position:relative;width:100%;height:300px;overflow:hidden;"> 
@@ -64,8 +64,18 @@
     <p>Infinity Riage X3 Massage Chair</p>
     <p>Available 24/5 Mon-Fri </p>
     <p class="price"><span>$</span>25</p>
-    <p>per month with one month free trial</p>
+    <p>per month</p>
     <a href="join.shtml" id="donebutton">Join Today</a> </section>
+    <div class="success">
+      <div class="icon"> <svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <circle class="border" cx="42" cy="42" r="40" stroke-linecap="round" stroke-width="4" stroke="#000" fill="none"></circle>
+        </svg> </div>
+    </div>
 </main>
+<!-- Ignore this test section -->
+<div id="test" style="margin-top:40px; font-size:12px;">
+<span onclick="document.getElementById('main').classList.add('submitting')";>Submitting</span>
+</div>
+<!-- .Ignore this test section -->
 </body>
 </html>

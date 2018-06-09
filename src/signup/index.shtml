@@ -62,7 +62,7 @@
         
         <!-- last name -->
         <label class="nolabel" for="lastname">last name</label>
-        <input name="lastname" id="lastname" type="text" required="required" autofocus="autofocus" placeholder="Last Name" class="active" spellcheck="false" />
+        <input name="lastname" id="lastname" type="text" required="required" autofocus="autofocus" placeholder="Last Name" spellcheck="false" />
         <br />
         <p id="lastnameerror" class="error">Last name and badge don't match.</p>
         <!-- .last name --> 
