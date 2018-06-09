@@ -11,14 +11,25 @@
 <body class="page-home ac-nav-overlap">
 <!--#include virtual="/res/ssi/header.html" -->
 
-<main>
+<main id="main">
   <section class="container">
     <div class="mainlogo"><a href="index.shtml"><img src="../res/img/rejuv-logo-tag.svg" /></a></div>
     <a href="#" onclick="confirm('Are you sure you want to cancel your Rejuvenate Membership?');" id="donebutton">Cancel Membership</a>
     <p>Note that you can continue to use your Rejuvenate Membership until the end of current billing cycle which expires on June 23.</p>
     <p>You can easily reactivate your membership from your Account Page prior to end of the current billing cycle.</p>
   </section>
+  <div class="success">
+      <div class="icon"> <svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <circle class="border" cx="42" cy="42" r="40" stroke-linecap="round" stroke-width="4" stroke="#000" fill="none"></circle>
+        </svg> </div>
+    </div>
 </main>
+<!-- Ignore this test section -->
+<div id="test" style="margin-top:40px; font-size:12px;">
+<span onclick="document.getElementById('main').classList.add('submitting')";>Submitting</span>
+</div>
+<!-- .Ignore this test section -->
+
 
 <!--#include virtual="/res/ssi/footer.html" -->
 
