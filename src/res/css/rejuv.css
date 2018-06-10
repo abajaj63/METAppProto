@@ -161,4 +161,21 @@ main.submitting section.container {
 a, a:hover {
 	text-decoration: none
 }
+
 /* .progress indicator stuff */
+.button {
+	color: #fff;
+	background-color: #007aff;
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+.button:active {
+	background-color: #006ADE;
+}
