@@ -574,7 +574,7 @@ opacity:1
 	background-image: url("../images/globalnav/links/menu5/image_large.png")
 }
 #ac-globalnav .ac-gn-link-menu5 {
-	background-size: 60px 42px;
+	background-size: 50px 42px;
 	background-repeat: no-repeat;
 	background-image: url("../images/globalnav/links/menu5/image_small1.svg")
 }
@@ -623,7 +623,7 @@ opacity:1
 	background-image: url("../images/globalnav/links/support/image_large.png")
 }
 #ac-globalnav .ac-gn-link-support {
-	background-size: 50px 42px;
+	background-size: 101px 42px;
 	background-repeat: no-repeat;
 	background-image: url("../images/globalnav/links/support/image_small1.svg")
 }
