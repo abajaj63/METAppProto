@@ -126,6 +126,7 @@ opacity: 1;
 
 main div.icon {
 opacity: 0;
+transform: scale(0.75)
 }
 .success {
 	display: -ms-flexbox;
@@ -157,7 +158,17 @@ section.container {
 main.submitting section.container {
 	opacity: 0;
 	transform: scale(.9)
+}	
+main.submitting .submitting-message {
+  opacity: 1;
 }
+main .submitting-message {
+  opacity: 0;
+  margin-top:9px;
+  font-size:16px;
+  transition:all 250ms
+}
+
 a, a:hover {
 	text-decoration: none
 }

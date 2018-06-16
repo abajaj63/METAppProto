@@ -627,6 +627,9 @@ opacity:1
 	background-repeat: no-repeat;
 	background-image: url("../images/globalnav/links/support/image_small1.svg")
 }
+#ac-globalnav .signin {
+	background-image: url("../images/globalnav/links/support/image_small2.svg")
+}
 #ac-globalnav.no-svg .ac-gn-link-support {
 	background-image: url("../images/globalnav/links/support/image_small.png")
 }

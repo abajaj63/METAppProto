@@ -22,7 +22,7 @@
 
 <main>
   <div class="mainlogo"><a href="index.shtml"><img src="../res/img/rl-1line.svg" /></a></div>
-  <div class="description">$25 per month with 1 month free trial</div>
+  <div class="description">$25 per month</div>
   <section class="container-lg">
     <div class="cell example example5">
       <form>
@@ -63,8 +63,9 @@
           <circle class="border" cx="42" cy="42" r="40" stroke-linecap="round" stroke-width="4" stroke="#000" fill="none"></circle>
           <path class="checkmark" stroke-linecap="round" stroke-linejoin="round" d="M23.375 42.5488281 36.8840688 56.0578969 64.891932 28.0500338" stroke-width="4" stroke="#000" fill="none"></path>
           </svg> </div>
+          <p class="submitting-message">One moment please.</p>
         <h3 class="title" data-tid="elements_examples.success.title">Payment successful</h3>
-        <p class="message"><span data-tid="elements_examples.success.message">Welcome to Rejuvenate. Your free trial period has begun.</span><span style="display:none" class="token"></span></p>
+        <p class="message"><span data-tid="elements_examples.success.message">Welcome to Rejuvenate. Your membership is now active.</span><span style="display:none" class="token"></span></p>
 <a href="#" id="donebutton">Done</a>
         </div>
     </div>

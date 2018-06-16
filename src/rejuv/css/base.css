@@ -409,8 +409,12 @@ main > .container-lg .example.submitting .success {
   pointer-events: all;
 }
 
-main > .container-lg .example.submitting .success .icon {
+main > .container-lg .example.submitting .success .icon, main > .container-lg .example.submitting .success .submitting-message {
   opacity: 1;
+}
+main > .container-lg .example.submitted .success .submitting-message {
+  opacity: 0;
+  font-size:0
 }
 
 main > .container-lg .example.submitted .success > * {
