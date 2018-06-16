@@ -12,6 +12,15 @@ main form {
 main.submitting form {
 	opacity: 0;
 	transform: scale(.9)
+}	
+main .submitting-message {
+  opacity: 0;
+  margin-top:9px;
+  font-size:16px;
+  transition:all 250ms
+}
+main.submitting .submitting-message {
+  opacity: 1;
 }
 a, a:hover {
 	text-decoration: none
@@ -56,10 +65,12 @@ a, a:hover {
 
 main.submitting div.icon {
 opacity: 1;
+transform: scale(0.75)
 }
 
 main div.icon {
 opacity: 0;
+transition:opacity 250ms
 }
 
 /** Page-specific styles */
