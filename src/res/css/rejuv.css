@@ -125,8 +125,9 @@ opacity: 1;
 }
 
 main div.icon {
-opacity: 0;
-transform: scale(0.75)
+	opacity: 0;
+	transform: scale(0.75);
+	margin-top: 60px
 }
 .success {
 	display: -ms-flexbox;

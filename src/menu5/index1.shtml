@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+
+<!-- don't cache (for dev only) -->
+<meta http-equiv="Cache-Control" content="no-store" />
+<!-- .don't cache (for dev only) -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="../res/css/global.css" rel="stylesheet" type="text/css" />
+<link href="../res/css/account.css" rel="stylesheet" type="text/css" />
+<title>The MET: Account</title>
+</head>
+
+<body class="page-home ac-nav-overlap">
+<!--#include virtual="/res/ssi/header.html" -->
+
+<main>
+  <section id="signin" class="hide">
+    <div class="welcome">account</div>
+    <form action="" method="get" name="reset">
+      <div class="formwrapper">
+        <p>Name: Doug Dawirs</p>
+        <p>Email/Username: doug@loudgain.com</p>
+        <p><a href="../password/reset.shtml">Reset password</a></p>
+        <hr />
+        <p>Rejuvenate</p>
+        <p><a href="../rejuv/index.shtml">Learn more</a></p>
+        <button type="button" class="button" id="continue" onClick="location.href='/index.shtml'">Done</button>
+      </div>
+    </form>
+  </section>
+</main>
+
+<!-- Include footer component --> 
+<!--#include virtual="/res/ssi/footer.html" -->
+<!-- .Include footer component -->
+
+</body>
+</html>
