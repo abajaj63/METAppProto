@@ -40,7 +40,8 @@ main {
 	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.53);
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.53);
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.53);
-	cursor: pointer
+	cursor: pointer;
+	display: block;
 }
 .home-button img {
 	max-width: 320px;
