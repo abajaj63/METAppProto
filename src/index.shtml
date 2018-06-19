@@ -74,8 +74,6 @@
   </div>
 </main>
 
-
-
 <!-- Include footer component -->
 <!--#include file="res/ssi/footer.html" -->
 <!-- .Include footer component -->
