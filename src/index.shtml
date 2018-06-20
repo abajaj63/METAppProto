@@ -57,7 +57,11 @@
 
 </head>
 
+<!-- animated background -->
 <body class="page-home ac-nav-overlap">
+<div class="background"><div id="background_hype_container" style="margin:auto;position:relative;width:100%;height:100%;overflow:hidden;"><script type="text/javascript" charset="utf-8" src="https://themetapp.com/res/hype/background.hyperesources/background_hype_generated_script.js?29018"></script></div>
+</div>
+<!-- .animated background -->
 
 <!-- Include header component -->
 <!--#include file="res/ssi/header.html" -->

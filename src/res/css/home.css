@@ -15,7 +15,7 @@ main {
 	/* [disabled]min-height:660px; */
 }
 .button-wrapper {
-	margin-top:80px
+	margin-top: 60px;
 }
 .home-button {
 	margin-right: auto;
@@ -39,7 +39,8 @@ main {
 	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.53);
 	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.53);
 	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.53);
-	display: block
+	display: block;
+	width: 80%;
 }
 .home-button img {
 	max-width: 320px;
@@ -69,16 +70,27 @@ main {
 .footerlogo {
 	display: block;
 	margin: auto;
-	width: 50%;
+	width: 40%;
 	position: relative;
-	max-width: 200px;
+	max-width: 180px;
 	padding-bottom: 30px
 }
 body {
-	background-image: url(../img/home/bg-1.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	/* [disabled]background-image: url(../img/home/bg-1.jpg); */
+	/* [disabled]background-repeat: no-repeat; */
+	/* [disabled]background-position: center; */
+	/* [disabled]background-size: cover; */
+}
+.background {
+	display: block;
+	height: 100%;
+	width: 100%;
+	padding-top: 0px;
+	padding-left: 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index:0
 }
 html {
 	height: 100%
