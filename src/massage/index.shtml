@@ -22,7 +22,7 @@
 <script type="text/javascript" src="../res/jsCalendar-master/source/jsCalendar.js"></script>
 <!-- .javascript calendar -->
 
-<title>The MET: Book a Massage</title>
+<title>The MET: Schedule a Massage</title>
 </head>
 
 <body class="page-home ac-nav-overlap">
@@ -36,7 +36,7 @@
       Your browser does not support the video tag.</video>
   </header>
   <section id="massage">
-    <div class="welcome">Book a Massage</div>
+    <div class="welcome"><img src="../res/img/massage-home.svg"/></div>
     <form action="" method="get" name="signin">
       <div class="formwrapper"> 
         

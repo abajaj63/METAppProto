@@ -70,7 +70,7 @@
 <main>
   <div class="button-wrapper">
   <a href="rejuv/index.shtml"class="home-button"><img src="res/img/rejuv-home.svg" /></a>
-    <a href="massage/index.shtml" class="home-button"><img src="res/img/rejuv-home.svg" /></a>
+    <a href="massage/index.shtml" class="home-button"><img src="res/img/massage-home.svg" /></a>
   </div>
   <div class="terms"><a href="http://www.mccarthycook.com" target="_blank"> <img class="footerlogo" src="/res/img/MC-Plus-logo-dark.svg"/> </a>
     <p>Copyright © <!--#config timefmt="%Y" --> <!--#echo var="DATE_LOCAL" --> McCarthy Cook &amp; Company, Inc.</p>

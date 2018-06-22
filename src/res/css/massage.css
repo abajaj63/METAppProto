@@ -31,6 +31,10 @@ main {
 	text-transform: uppercase;
 	font-weight: 500;
 }
+.welcome img {
+	width:80%;
+	margin-top:10px;
+}
 #massage {
 	margin-right: auto;
 	margin-left: auto;
