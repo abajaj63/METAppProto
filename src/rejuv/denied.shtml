@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The MET: Rejuvenate Membership Restricted</title>
+<link rel="stylesheet" type="text/css" href="../res/css/global.css" data-rel-css="" />
+<link rel="stylesheet" type="text/css" href="../res/css/rejuv.css" data-rel-css="" />
+</head>
+
+<body class="page-home ac-nav-overlap">
+<!--#include virtual="/res/ssi/header.html" -->
+
+<main>
+  <section class="container">
+    <div class="mainlogo"><a href="index.shtml"><img src="../res/img/rejuv-logo-tag.svg" /></a></div>
+    <p>Your user account is not authorized for Rejuvenate Membership.</p>
+    <p>Contact your Tenant Administrator for assistance.</p>
+    <a href="index.shtml" id="donebutton">Done</a>
+  </section>
+</main>
+</body>
+</html>

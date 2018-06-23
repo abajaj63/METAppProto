@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="/res/css/global.css" rel="stylesheet" type="text/css" />
+<title>The MET: Page Not Found</title>
+
+<style type="text/css">
+.error {
+	background-image: url(res/img/home/bg-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.error-msg {
+	color:white;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align:center;
+	font-size:10vw
+}
+html, body, main, .error-msg {
+	height: 100%
+}
+main {
+	margin-top:0px; margin-bottom:0px}
+</style>
+
+</head>
+
+<body class="page-home ac-nav-overlap error">
+
+<!-- Include header component -->
+<!--#include file="res/ssi/header.html" -->
+<!-- .Include header component -->
+
+<main>
+<section class="error-msg"><div style="margin-top:49px;">Page not found.</div>
+</section>
+</main>
+
+<!-- Include footer component -->
+<!--#include file="res/ssi/footer.html" -->
+<!-- .Include footer component -->
+
+</body>
+</html>
