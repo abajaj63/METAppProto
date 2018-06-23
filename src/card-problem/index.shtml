@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="Author" content="McCarthy Cook" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="/res/css/global.css" rel="stylesheet" type="text/css" />
+<link href="/res/css/card-problem.css" rel="stylesheet" type="text/css" />
+<script src="/res/js/global.js" type="text/javascript" charset="utf-8"></script>
+<title>The MET: Card Problem</title>
+</head>
+
+<body class="page-home ac-nav-overlap">
+
+<!-- Include header component --> 
+<!--#include virtual="/res/ssi/header.html" --> 
+<!-- .Include header component -->
+
+<main>
+  <section class="container">
+    <p>There was a problem using your stored payment method for a recurring purchase. Please contact  us at <a href="tel:9494275200">949-427-5200</a> betwen 8AM and 5 PM, Monday through Friday to resolve the matter. You may also send us an email with you contact information and we will call you back.</p>
+    <a href="/index.shtml" id="donebutton">Done</a>
+    </section>
+</main>
+
+<!-- Include footer component --> 
+<!--#include virtual="/res/ssi/footer.html" --> 
+<!-- .Include footer component -->
+
+</body>
+</html>
