@@ -3,18 +3,10 @@
 <html lang="en">
 <head>
 
-<!-- don't cache (for dev only) -->
-<meta http-equiv="Cache-Control" content="no-store" />
-<!-- .don't cache (for dev only) -->
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="Author" content="McCarthy Cook" />
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="Need help?">
-
-<link rel="canonical" href="https://dev.themetapp.com/">
-<link rel="alternate" href="https://dev.themetapp.com/" hreflang="en-US">
 <link href="/res/css/global.css" rel="stylesheet" type="text/css" />
 <link href="/res/css/support.css" rel="stylesheet" type="text/css" />
 <script src="/res/js/global.js" type="text/javascript" charset="utf-8"></script>
@@ -26,13 +18,23 @@
 <body class="page-home ac-nav-overlap">
 
 <!-- Include header component -->
-<!--#include file="/res/ssi/header.html" -->
+<!--#include virtual="/res/ssi/header.html" -->
 <!-- .Include header component -->
+
+<main> 
+  <section class="container">
+    <p><a href="mailto:support@themetapp.com">support@themetapp.com</a></p>
+    <p> <a href="tel:9494275200">949-427-5200</a></p>
+    <p>Hours: 8AM-5PM, Mon-Fri</p>
+        <a href="/index.shtml" id="donebutton">Done</a>
+
+  </section>
+</main>
 
 
 
 <!-- Include footer component -->
-<!--#include file="/res/ssi/footer.html" -->
+<!--#include virtual="/res/ssi/footer.html" -->
 <!-- .Include footer component -->
 
 </body>
