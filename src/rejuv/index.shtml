@@ -67,6 +67,7 @@
     <p>Available 24/5 Mon-Fri </p>
     <p class="price"><span>$</span>25</p>
     <p>per month</p>
+    <p>First month free if you join before 6/30!</p>
     <a href="join.shtml" id="donebutton">Join Today</a> </section>
     <div class="success">
   	  <div class="icon"> <svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
