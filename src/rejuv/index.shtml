@@ -9,8 +9,10 @@
 <meta name="apple-mobile-web-app-title" content="Rejuventate">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="canonical" href="https://dev.themetapp.com/rejuv/">
-<link href="../res/css/global.css" rel="stylesheet" type="text/css" />
-<link href="../res/css/signin.css" rel="stylesheet" type="text/css" />
+<link href="../res/css/global.css" rel="stylesheet" type="text/css" /><!--
+<link href="../res/css/signin.css" rel="stylesheet" type="text/css" />-->
+<link rel="stylesheet" type="text/css" href="../res/css/rejuv.css" data-rel-css="" />
+
 <script src="../res/js/global.js" type="text/javascript" charset="utf-8"></script>
 <title>The MET: Rejuventate</title>
 
@@ -36,9 +38,6 @@
 <meta name="msapplication-wide310x150logo" content="https://dev.themetapp.com/res/icons/mstile-310x150.png" />
 <meta name="msapplication-square310x310logo" content="https://dev.themetapp.com/res/icons/mstile-310x310.png" />
 <!-- .favicons -->
-
-<link rel="stylesheet" type="text/css" href="../res/css/global.css" data-rel-css="" />
-<link rel="stylesheet" type="text/css" href="../res/css/rejuv.css" data-rel-css="" />
 
 <!-- Fancybox -->
 <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>

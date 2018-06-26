@@ -196,10 +196,10 @@ a, a:hover {
 	height: 64px;
 	width: 64px;
 }
-.play svg g {
+#rejuv_hype_container .HYPE_scene a {
 	color:#fff;
 	transition: color 150ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.play:hover svg g {
+#rejuv_hype_container .HYPE_scene a:hover {
 	color:#fff;
 }
