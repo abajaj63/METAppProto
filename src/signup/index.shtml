@@ -106,8 +106,12 @@
     </div>
   </section>
   <div id="badgewrapper" class="active" onclick="">
-    <div id="badgeimage"><img src="../res/img/badge.png" alt="badge" /></div>
-    <a href="/learnmore/index.shtml" class="signup">Don&rsquo;t have a badge yet? <span>Learn More</span></a></div>
+    <div class="badgeimage"><img src="../res/img/badge1.png" alt="badge example" /></div>
+    <div class="badgeimage"><img src="../res/img/badge2.png" alt="badge example" /></div>
+    
+    <a href="/signup/needabadge.shtml" class="signup">Don&rsquo;t have a badge yet? <span>Learn More</span></a>
+    
+    </div>
 </main>
 
 <!-- Ignore this test section -->

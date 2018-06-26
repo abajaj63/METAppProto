@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="Author" content="McCarthy Cook" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="../res/css/global.css" rel="stylesheet" type="text/css" />
+<link href="../res/css/signup.css" rel="stylesheet" type="text/css" />
+<script src="../res/js/global.js" type="text/javascript" charset="utf-8"></script>
+<title>The MET: Need a Badge?</title>
+</head>
+
+<body class="page-home ac-nav-overlap">
+<!--#include virtual="/res/ssi/header.html" --> 
+
+<main> 
+  <section class="container">
+    <p>To obtain an access badge, please contact your company's Office Manager.</p>
+        <a href="index.shtml" id="donebutton">Done</a>
+  </section>
+</main>
+
+<!--#include virtual="/res/ssi/footer.html" -->
+
+</body>
+</html>

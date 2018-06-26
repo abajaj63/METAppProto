@@ -130,7 +130,7 @@ transition:opacity 250ms
 	padding: 10px 12px;
 	box-sizing: border-box
 }
-#badgeimage {
+.badgeimage {
 	width: 100%;
 	max-width: 450px;
 	margin-top: 20px;
@@ -144,7 +144,7 @@ transition:opacity 250ms
 	-moz-border-radius: 8px;
 	border-radius: 8px
 }
-#badgeimage img {
+.badgeimage img {
 	width: 100%;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
