@@ -88,7 +88,7 @@
         
         <!-- special requests -->
         <label for="special">Questions / Special Requests</label>
-        <textarea name="special" maxlength="1000" placeholder="Example: Longer or shorter session. Specific appointment start time. A particular massage type. (Swedish, Deep-tissue, Hot Stone, Sports, Shiatsu, etc.)"></textarea>
+        <textarea name="special" maxlength="1000" placeholder="Example: Longer or shorter session. Specific appointment start time. A particular massage type. (Swedish, Deep-tissue, Acupressure, Sports, Shiatsu, etc.)"></textarea>
         <!-- .special requests -->
         
         <button type="submit" class="button">Submit Your Requst</button>
