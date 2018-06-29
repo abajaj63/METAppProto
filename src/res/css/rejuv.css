@@ -84,7 +84,7 @@ body {
 	margin-left: 0px;
 	display: block;
 }
-#donebutton {
+.donebutton {
 	text-decoration: none;
 	color: #fff;
 	background-color: #007aff;

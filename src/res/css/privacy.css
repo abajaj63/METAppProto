@@ -1,0 +1,82 @@
+/* CSS Document */
+
+
+.welcome {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #777;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+li {
+	margin: 10px 0px;
+}
+ol {	
+	padding-left:2em;
+}
+ol > li > ol * {
+	list-style: none;
+}
+ol > li > ol {
+	counter-reset: list1;
+}
+ol > li > ol > li::before {
+	counter-increment: list1;
+	content: "(" counter(list1, lower-alpha) ") ";
+}
+ol > li > ol > li > ol {
+	counter-reset: list2;
+}
+ol > li > ol > li > ol > li::before {
+	counter-increment: list2;
+	content: "(" counter(list2, lower-roman) ") ";
+}
+li > p {
+	margin: 10px 0px;
+}
+.wrapper ol * {
+	text-align: justify;
+}
+.wrapper {
+	display: table;
+	max-width: 900px;
+	margin: 0px auto;
+	/* [disabled]text-align: left; */
+	font-size: 14px;
+}
+#donebutton {
+	text-decoration: none;
+	color: #fff;
+	background-color: #007aff;
+	box-sizing: border-box;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.container {
+	max-width: 490px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0;
+	padding-right: 20px;
+	padding-bottom: 0;
+	padding-left: 20px;
+	position:relative
+}
+.container p {
+	color: #777;
+	margin-top: 10px;
+	line-height: 1.5em;
+	text-align: left;
+}

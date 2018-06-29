@@ -74,7 +74,7 @@
   </div>
   <div class="terms"><a href="http://www.mccarthycook.com" target="_blank"> <img class="footerlogo" src="/res/img/MC-Plus-logo-dark.svg"/> </a>
     <p>Copyright © <!--#config timefmt="%Y" --> <!--#echo var="DATE_LOCAL" --> McCarthy Cook &amp; Company, Inc.</p>
-    <p><a href="#">Privacy Policy</a><span>|</span><a href="#">Terms of Use</a></p>
+    <p><a href="/privacy/index.shtml">Privacy Policy</a><span>|</span><a href="/terms/index.shtml">Terms of Use</a></p>
   </div>
 </main>
 
