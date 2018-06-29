@@ -1,6 +1,5 @@
 /* CSS Document */
 
-
 .welcome {
 	margin-right: auto;
 	margin-left: auto;
@@ -14,9 +13,12 @@
 }
 li {
 	margin: 10px 0px;
+	-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto
 }
-ol {	
-	padding-left:2em;
+ol {
+	padding-left: 2em;
 }
 ol > li > ol * {
 	list-style: none;
@@ -38,17 +40,18 @@ ol > li > ol > li > ol > li::before {
 li > p {
 	margin: 10px 0px;
 	-webkit-hyphens: auto;
-   -moz-hyphens: auto;
-        hyphens: auto
+	-moz-hyphens: auto;
+	hyphens: auto
 }
 .wrapper ol * {
-	text-align: justify;
+	text-align: justify
 }
 .wrapper {
 	display: table;
 	max-width: 900px;
 	margin: 0px auto;
-	/* [disabled]text-align: left; */
+	/* [disabled]text-align: left;
+*/
 	font-size: 14px;
 }
 #donebutton {
@@ -75,7 +78,7 @@ li > p {
 	padding-right: 20px;
 	padding-bottom: 0;
 	padding-left: 20px;
-	position:relative
+	position: relative
 }
 .container p {
 	color: #777;
@@ -83,6 +86,13 @@ li > p {
 	line-height: 1.5em;
 	text-align: justify;
 	-webkit-hyphens: auto;
-   -moz-hyphens: auto;
-        hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+.wrapper h1 {
+	font-size: inherit;
+	margin-top: 2em;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
 }
