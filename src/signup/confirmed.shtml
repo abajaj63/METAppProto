@@ -25,7 +25,8 @@
     <div class="check"><img src="../res/img/check.svg"/></div>
     <p align="center">Yay!<br />
       <br />
-      You&rsquo;re now registered and signed into The Met App.</p>
+      You&rsquo;re now registered and signed into The MET App.</p>
+    <p align="center">You  may now <a href="/rejuv/index.shtml">join Rejuventate</a>, <a href="/massage/index.shtml">schedule a massage</a>, or access your <a href="/menu5/index.shtml">account page</a>.</p>
     <button type="button" class="button" id="continue" onclick="window.location = '/'">Done</button>
   </section>
 </main>

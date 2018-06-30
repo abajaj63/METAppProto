@@ -25,6 +25,7 @@ ol > li > ol * {
 }
 ol > li > ol {
 	counter-reset: list1;
+	margin-left:-28px
 }
 ol > li > ol > li::before {
 	counter-increment: list1;

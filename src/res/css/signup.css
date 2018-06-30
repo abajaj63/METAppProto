@@ -251,3 +251,9 @@ transition:opacity 250ms
 	margin-bottom: 10px;
 	padding-bottom: 20px
 }
+#confirm p a, #confirm p a:visited {
+	color:#007aff
+}
+#confirm p a:hover {
+	text-decoration:underline
+}
